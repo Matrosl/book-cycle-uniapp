@@ -1,0 +1,130 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "校园二手书APP-登录"
+      }
+    },
+    {
+      "path": "pages/register/register",
+      "style": {
+        "navigationBarTitleText": "校园二手书APP-注册"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/book-search/book-search",
+      "style": {
+        "navigationBarTitleText": "书籍检索"
+      }
+    },
+    {
+      "path": "pages/book-publish/book-publish",
+      "style": {
+        "navigationBarTitleText": "发布书籍"
+      }
+    },
+    {
+      "path": "pages/personal-center/personal-center",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/message-add/message-add",
+      "style": {
+        "navigationBarTitleText": "交易留言"
+      }
+    },
+    {
+      "path": "pages/book-detail/book-detail",
+      "style": {
+        "navigationBarTitleText": "书籍详情"
+      }
+    },
+
+    {
+      "path": "pages/borrow-records/borrow-records",
+      "style": {
+        "navigationBarTitleText": "我的交易记录"
+      }
+    },
+    {
+      "path": "pages/my-reviews/my-reviews",
+      "style": {
+        "navigationBarTitleText": "我的评价"
+      }
+    },
+    {
+      "path": "pages/my-messages/my-messages",
+      "style": {
+        "navigationBarTitleText": "我的消息"
+      }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/book-add/book-add",
+      "style": {
+        "navigationBarTitleText": "发布书籍"
+      }
+    },
+    {
+      "path": "pages/my-books/my-books",
+      "style": {
+        "navigationBarTitleText": "我的书籍"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园二手书循环利用APP",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "easycom": {
+    "^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+  },
+   "tabBar": {
+      "color": "#666",
+      "selectedColor": "#2979ff",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "static/icons/tab-home.svg",
+          "selectedIconPath": "static/icons/tab-home-active.svg"
+        },
+        {
+          "pagePath": "pages/book-search/book-search",
+          "text": "书籍检索",
+          "iconPath": "static/icons/tab-search.svg",
+          "selectedIconPath": "static/icons/tab-search-active.svg"
+        },
+        {
+          "pagePath": "pages/book-publish/book-publish",
+          "text": "发布书籍",
+          "iconPath": "static/icons/tab-publish.svg",
+          "selectedIconPath": "static/icons/tab-publish-active.svg"
+        },
+        {
+          "pagePath": "pages/personal-center/personal-center",
+          "text": "个人中心",
+          "iconPath": "static/icons/tab-me.svg",
+          "selectedIconPath": "static/icons/tab-me-active.svg"
+        }
+      ]
+    }
+}

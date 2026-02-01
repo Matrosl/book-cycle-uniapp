@@ -1,0 +1,44 @@
+# 依赖目录
+node_modules/
+uni_modules/
+
+# 后端代码
+book-cycle-backend/
+
+# 编译输出
+unpackage/
+dist/
+
+# 日志文件
+*.log
+
+# 编辑器文件
+.vscode/
+.idea/
+.hbuilderx/
+
+# 系统文件
+Thumbs.db
+*.swp
+*.swo
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# 测试文件
+coverage/
+*.lcov
+
+# 构建文件
+build/
+out/
+
+# 数据库文件
+*.db
+*.sqlite
+
+# 缓存文件
+.cache/
+.temp/
